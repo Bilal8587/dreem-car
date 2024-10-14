@@ -1,6 +1,6 @@
 import Header from '@/components/Header'
 import carDetails from "../Shared/carDetails.json"
-import InputField from './components/inputField'
+import InputField from './components/InputField'
 import DropdownField from './components/DropdownField'
 import TextAreaField from './components/TextAreaField'
 import features from '../Shared/features.json'
@@ -18,8 +18,6 @@ import { useUser } from '@clerk/clerk-react'
 import { eq, desc } from "drizzle-orm"
 import Service from '@/Shared/Service'
 import Footer from '@/components/Footer'
-
-// import { moment} from "moments"
 
 
 function AddListing() {
